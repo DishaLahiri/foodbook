@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+</style>
+</head>
+<body>
+  
+    <div class="w3-top" >
+        <div class="w3-bar w3-black w3-card w3-left-align w3-large">
+          <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-black" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+          <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+          <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About</a>
+          <a href="signup.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sign Up</a>
+          <a href="login.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Login</a>
+          <a href="team.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Meet The Team</a>
+          <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
+        </div>
+  
+   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+        <a href="about.html" class="w3-bar-item w3-button w3-padding-large">About</a>
+        <a href="signup.html" class="w3-bar-item w3-button w3-padding-large">Sign Up</a>
+        <a href="login.html" class="w3-bar-item w3-button w3-padding-large">Login</a>
+        <a href="team.html" class="w3-bar-item w3-button w3-padding-large">Meet The Team</a>
+        <a href="contact.html" class="w3-bar-item w3-button w3-padding-large">Contact</a>
+      </div>
+  </div>
+<h2>Meet The Team</h2>
+
+<br>
+<div >
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="C:\Users\Admin\Downloads\27067559_1544015552361055_1594713325338546117_n.jpg" alt="Disha" style="width:100%">
+      <div class="container">
+        <h2>Disha Lahiri</h2>
+        <p class="title">Designer</p>
+        <p>Hello All</p>
+        <p>disha.lahiri25@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="IMG-20180206-WA0020.jpg" alt="Rakesh" style="width:100%">
+      <div class="container">
+        <h2>Rakesh Isidore</h2>
+        <p class="title"> Director</p>
+        <p>Some text that</p>
+        <p>rakesh.isidore@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="https://lh3.googleusercontent.com/S_guvC7CPC4l7QPQALSR3wcMl_7a9fNqO7Gi0cXijcInWS7hV2CMlFW8BAU1cTHYPop4pBnAKztAl11U-pW7xmEUJw--ZC6TYWffW3sc0LLbN2vXeZyk_kykVPlPChDp48Gp46Mxdk1Qxn8imIad-1ATvZ65jpIfUFgmRXvG_FqFWHVlGdQ0zBDKo0BuF3ns0gZn6npGx5b6ZezqZh7lL65SyMuIWCItKkL2U1CgaX2dL9XVwUlePNJHxVTuKkvSPizU1XesTm0VTCIFX9V3CIjxpGh3_KyQeo2d1L6T46kbDwH8In9Z2sHDlVaxAqRFu4OQk6UEpWpUEMoAoRDNRjXQazJCpbmbaDTRhTUzOA690zG0xslJdTvuuyXmjhrosItK-Xikbca0TqnZb_O-aj9aqqZ-I-Rmk5hp8iQDlbn_KfqJO0FJa4wo-QhXkW9ECh2mAUNj4NoT8NCif_yzgH7JnNsprL1isg88Y3MVyzEOXgVUK1yt9-bF_gWR3B--EGrPuUyG-dLGhWcz17OBomAfjf5_n2N45TVs2h142H6VCNMqiAw-F7aONhSLqxZH-5oLsyuG8HgZbANL0orOGTToEHw-zGglxBX0GSpo=w524-h662-no" alt="Shridhar" style="width:100%">
+      <div class="container">
+        <h2>Shridhar Alageri</h2>
+        <p class="title">Designer</p>
+        <p>Some text that </p>
+        <p>shri.alageri@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+</body>
+</html>
